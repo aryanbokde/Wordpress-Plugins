@@ -1,0 +1,57 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.ast-meta{
+    color: #000;
+}
+.ast-meta-head{
+    color: #fff;
+}
+.ast-meta-head .icon:before,
+.ast-meta .icon:before{
+
+    color: #cd2653 !important;
+
+}
+
+.ast-meta .icon{
+    padding-right: 10px;
+}
+
+.single-event-header{
+    padding: 100px 0;
+}
+
+.event-sidebar-title{
+    background: #cd2653;
+    padding: 5px 10px;
+}
+
+.btn-primary{
+    background-color: #cd2653;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: #cd2653;
+    border: none;
+    border-radius: 0;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.0333em;
+    line-height: 1.25;
+    margin: 0;
+    opacity: 1;
+    padding: 1.1em 1.44em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: opacity 0.15s linear;
+}
+
+.btn-primary:hover{
+    background-color: #000;
+}
